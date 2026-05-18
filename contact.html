@@ -1,139 +1,168 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Contact - AZTECH DIGITAL</title>
-
+<title>Contact — AZTECH DIGITAL</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
 <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-
-<div class="container">
-
-<a class="navbar-brand" href="index.html">
-AZTECH
-</a>
-
-<button class="navbar-toggler"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#navbarNav">
-
-<span class="navbar-toggler-icon"></span>
-
-</button>
-
-<div class="collapse navbar-collapse" id="navbarNav">
-
-<ul class="navbar-nav ms-auto">
-
-<li class="nav-item">
-<a class="nav-link" href="index.html">
-Beranda
-</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="layanan.html">
-Layanan
-</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link" href="harga.html">
-Harga
-</a>
-</li>
-
- <li class="nav-item">
-<a class="nav-link" href="blog.html">
-Blog
-</a>
-</li>
-
-<li class="nav-item">
-<a class="nav-link active" href="contact.html">
-Contact
-</a>
-</li>
-
-</ul>
-
-</div>
-
-</div>
-
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">AZTECH</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+        <li class="nav-item"><a class="nav-link" href="harga.html">Harga</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item ms-2">
+          <a class="btn-main" href="contact.html" style="padding:10px 24px;font-size:13px;margin-top:0;">Hubungi Kami
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
-<section class="section">
+<section style="padding:160px 0 80px;background:var(--bg-deep);position:relative;overflow:hidden;">
+  <div class="hero-grid" style="opacity:0.5;"></div>
+  <div class="container text-center">
+    <span class="section-eyebrow fade-up">Kami Siap Membantu</span>
+    <h1 class="fade-up" style="font-family:'Playfair Display',serif;font-size:clamp(36px,5vw,64px);font-weight:700;line-height:1.1;margin-top:16px;margin-bottom:20px;">
+      Mari <em style="font-style:italic;color:var(--gold);">Terhubung</em>
+    </h1>
+    <p class="fade-up" style="color:var(--text-muted);font-size:17px;max-width:480px;margin:0 auto;">
+      Ceritakan kebutuhan bisnis Anda. Tim kami akan menghubungi Anda dalam 1×24 jam.
+    </p>
+  </div>
+</section>
 
-<div class="container">
+<section class="section" style="padding-top:60px;">
+  <div class="container">
+    <div class="row g-5 justify-content-center">
 
-<div class="section-title">
+      <!-- CONTACT INFO -->
+      <div class="col-lg-4 fade-up">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-item-icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@aztech.id</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📱</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p>+62 812-3456-7890</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div>
+              <h4>Lokasi</h4>
+              <p>Sidoarjo, Jawa Timur<br>Indonesia</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">🕐</div>
+            <div>
+              <h4>Jam Kerja</h4>
+              <p>Senin – Jumat<br>08.00 – 17.00 WIB</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<h5>CONTACT US</h5>
+      <!-- FORM -->
+      <div class="col-lg-7 fade-up stagger-2">
+        <div class="contact-box">
+          <h2 style="font-family:'Playfair Display',serif;font-size:28px;font-weight:700;margin-bottom:8px;">Kirim Pesan</h2>
+          <p style="color:var(--text-muted);font-size:14px;margin-bottom:40px;">Isi formulir di bawah dan kami akan segera merespons.</p>
 
-<h1>Hubungi Kami</h1>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" placeholder="John Doe">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="john@email.com">
+            </div>
+          </div>
 
-</div>
+          <label class="form-label" style="margin-top:4px;">Nomor WhatsApp</label>
+          <input type="text" class="form-control" placeholder="+62 812-xxxx-xxxx">
 
-<div class="row justify-content-center">
+          <label class="form-label">Layanan yang Dibutuhkan</label>
+          <select class="form-control" style="appearance:none;cursor:pointer;">
+            <option value="" style="background:#0d1425;">— Pilih layanan —</option>
+            <option style="background:#0d1425;">Website Development</option>
+            <option style="background:#0d1425;">UI/UX Design</option>
+            <option style="background:#0d1425;">Digital Marketing</option>
+            <option style="background:#0d1425;">E-Commerce Solution</option>
+            <option style="background:#0d1425;">Konsultasi Digital</option>
+          </select>
 
-<div class="col-lg-8">
+          <label class="form-label">Pesan</label>
+          <textarea class="form-control" rows="5" placeholder="Ceritakan kebutuhan proyek Anda secara singkat..."></textarea>
 
-<div class="contact-box">
+          <button class="btn-main w-100" style="justify-content:center;margin-top:8px;" onclick="this.innerHTML='Pesan Terkirim ✓';this.style.background='#2d6a4f';setTimeout(()=>{this.innerHTML=\'Kirim Pesan\';this.style.background=\'\'},3000)">
+            Kirim Pesan
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+          </button>
+        </div>
+      </div>
 
-<input
-type="text"
-class="form-control"
-placeholder="Nama Lengkap">
-
-<input
-type="email"
-class="form-control"
-placeholder="Email">
-
-<textarea
-class="form-control"
-rows="5"
-placeholder="Pesan"></textarea>
-
-<button class="btn-main w-100">
-
-Kirim Pesan
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
+    </div>
+  </div>
 </section>
 
 <footer>
-
-<h3>AZTECH DIGITAL</h3>
-
-<p>
-Professional Digital Company
-</p>
-
+  <div class="container">
+    <div class="row g-5 mb-5">
+      <div class="col-lg-4">
+        <div class="footer-brand">AZTECH</div>
+        <p class="footer-tagline">Professional Digital Agency</p>
+      </div>
+      <div class="col-lg-2 col-6">
+        <div class="footer-col-title">Navigasi</div>
+        <div class="footer-links">
+          <a class="footer-link" href="index.html">Beranda</a>
+          <a class="footer-link" href="layanan.html">Layanan</a>
+          <a class="footer-link" href="harga.html">Harga</a>
+          <a class="footer-link" href="blog.html">Blog</a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="footer-col-title">Kontak</div>
+        <div class="footer-links">
+          <a class="footer-link" href="#">hello@aztech.id</a>
+          <a class="footer-link" href="#">+62 812-3456-7890</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AZTECH DIGITAL. All rights reserved.</span>
+      <span>Indonesia 🇮🇩</span>
+    </div>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', window.scrollY > 50));
+  const obs = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), {threshold:0.1});
+  document.querySelectorAll('.fade-up').forEach(el => obs.observe(el));
+</script>
 </body>
 </html>
